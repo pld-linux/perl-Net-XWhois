@@ -3,7 +3,7 @@ Summary:	Net-XWhois perl module
 Summary(pl):	Modu³ perla Net-XWhois
 Name:		perl-Net-XWhois
 Version:	0.72
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
