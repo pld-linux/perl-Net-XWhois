@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	XWhois
-Summary:	Net-XWhois perl module
-Summary(pl):	Modu³ perla Net-XWhois
+Summary:	Net::XWhois perl module
+Summary(pl):	Modu³ perla Net::XWhois
 Name:		perl-Net-XWhois
 Version:	0.82
 Release:	4
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Net-XWhois - Whois Client Interface for Perl.
+Net::XWhois - Whois Client Interface for Perl.
 
 %description -l pl
-Net-XWhois - klient whois dla perla.
+Net::XWhois - klient whois dla perla.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
