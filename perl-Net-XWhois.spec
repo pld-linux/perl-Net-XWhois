@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	XWhois
+%define		pdir	Net
+%define		pnam	XWhois
 Summary:	Net::XWhois - whois client Interface for Perl5
 Summary(pl):	Net::XWhois - klient whois dla Perla 5
 Name:		perl-Net-XWhois
