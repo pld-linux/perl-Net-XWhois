@@ -5,44 +5,29 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	XWhois
-Summary:	Net::XWhois Perl module
-Summary(cs):	Modul Net::XWhois pro Perl
-Summary(da):	Perlmodul Net::XWhois
-Summary(de):	Net::XWhois Perl Modul
-Summary(es):	Módulo de Perl Net::XWhois
-Summary(fr):	Module Perl Net::XWhois
-Summary(it):	Modulo di Perl Net::XWhois
-Summary(ja):	Net::XWhois Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Net::XWhois ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Net::XWhois
-Summary(pl):	Modu³ perla Net::XWhois
-Summary(pt_BR):	Módulo Perl Net::XWhois
-Summary(pt):	Módulo de Perl Net::XWhois
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Net::XWhois
-Summary(sv):	Net::XWhois Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Net::XWhois
-Summary(zh_CN):	Net::XWhois Perl Ä£¿é
+Summary:	Net::XWhois - whois Client Interface for Perl5
+Summary(pl):	Net::XWhois - klient whois dla Perla 5
 Name:		perl-Net-XWhois
 Version:	0.90
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-Patch0:		%{name}-paths.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Net::XWhois - Whois Client Interface for Perl.
+The Net::XWhois class provides a generic client framework for doing
+whois queries and parsing server response.
 
 %description -l pl
-Net::XWhois - klient whois dla perla.
+Klasa Net::XWhois udostêpnia podstawowy szkielet klienta wykonuj±cego
+zapytania whois i przetwarzaj±cego odpowiedzi serwera.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
-%patch -p0
 
 %build
 %{__perl} Makefile.PL
