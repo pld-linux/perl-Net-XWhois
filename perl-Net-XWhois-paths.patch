@@ -1,8 +1,0 @@
---- examples/whois~	Thu Apr  8 14:53:20 1999
-+++ examples/whois	Sun Oct 17 13:57:14 1999
-@@ -1,4 +1,4 @@
--#!/usr/bin/perl -I../
-+#!/usr/bin/perl
- 
- use Net::XWhois; 
- 
