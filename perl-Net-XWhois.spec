@@ -10,7 +10,8 @@ Summary(pl):	Net::XWhois - klient whois dla Perla 5
 Name:		perl-Net-XWhois
 Version:	0.90
 Release:	2
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1c0394d6a4b5bd05d8686b0a0dc18999
@@ -41,8 +42,8 @@ zapytania whois i przetwarzaj±cego odpowiedzi serwera.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
-
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 install examples/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %clean
