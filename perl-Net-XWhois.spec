@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	XWhois
 Summary:	Net::XWhois - whois client Interface for Perl5
-Summary(pl):	Net::XWhois - klient whois dla Perla 5
+Summary(pl.UTF-8):   Net::XWhois - klient whois dla Perla 5
 Name:		perl-Net-XWhois
 Version:	0.90
 Release:	2
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The Net::XWhois class provides a generic client framework for doing
 whois queries and parsing server response.
 
-%description -l pl
-Klasa Net::XWhois udostêpnia podstawowy szkielet klienta wykonuj±cego
-zapytania whois i przetwarzaj±cego odpowiedzi serwera.
+%description -l pl.UTF-8
+Klasa Net::XWhois udostÄ™pnia podstawowy szkielet klienta wykonujÄ…cego
+zapytania whois i przetwarzajÄ…cego odpowiedzi serwera.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
