@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	XWhois
 Summary:	Net::XWhois - whois client Interface for Perl5
-Summary(pl.UTF-8):   Net::XWhois - klient whois dla Perla 5
+Summary(pl.UTF-8):	Net::XWhois - klient whois dla Perla 5
 Name:		perl-Net-XWhois
 Version:	0.90
 Release:	2
