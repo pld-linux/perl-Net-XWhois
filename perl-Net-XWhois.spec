@@ -4,7 +4,6 @@
 
 %define		pdir	Net
 %define		pnam	XWhois
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net::XWhois - whois client Interface for Perl5
 Summary(pl.UTF-8):	Net::XWhois - klient whois dla Perla 5
 Name:		perl-Net-XWhois
