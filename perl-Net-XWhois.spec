@@ -8,7 +8,7 @@ Summary:	Net::XWhois - whois client Interface for Perl5
 Summary(pl.UTF-8):	Net::XWhois - klient whois dla Perla 5
 Name:		perl-Net-XWhois
 Version:	0.90
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
